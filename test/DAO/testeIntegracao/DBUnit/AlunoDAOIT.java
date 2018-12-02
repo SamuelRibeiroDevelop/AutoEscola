@@ -22,6 +22,7 @@ import static org.junit.Assert.*;
  * @author samue
  */
 public class AlunoDAOIT {
+
     
     public AlunoDAOIT() {
     }
