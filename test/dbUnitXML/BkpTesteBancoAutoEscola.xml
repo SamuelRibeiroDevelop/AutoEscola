@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+  <aluno matricula="1" nome="Samuel" email="samuel@" logradouro="rua Albino Esteves" bairro="Vila Ideal" numero="170" complemento="casa" cidade="Juiz de Fora" estado="MG" matriculado="1" data_nascimento="1996-01-22" login_id="30" cpf="11384221697"/>  
+  <aluno matricula="2" nome="Zezin" email="zezin@" logradouro="rua Espirito Santo" bairro="Centro" numero="555" complemento="casa" cidade="Juiz de Fora" estado="MG" matriculado="1" data_nascimento="1990-08-05" login_id="1" cpf="00099988822"/>  
+  <aluno matricula="3" nome="Gustin" email="gustin@" logradouro="av. Presidente Itamar Franco" bairro="Centro" numero="1071" complemento="apartamento 401" cidade="Juiz de Fora" estado="MG" matriculado="0" data_nascimento="1985-11-11" login_id="3" cpf="11155577722"/>  
+  
+  <login id="30" login="samuelribeiro" senha="1234567890"/>
+  <login id="1" login="zeze" senha="abcde"/>
+  <login id="3" login="gugu" senha="gugu123"/>
+  
+  <login id="4" login="jef" senha="abc123"/>
+  <login id="5" login="juca" senha="123abc"/>
+  <login id="6" login="joao" senha="0987654321"/>
+  <login id="7" login="markin" senha="mar123"/>
+  
+  <login id="12" login="roberto" senha="rob123"/>
+  <login id="13" login="amanda" senha="ama123"/>
+  <login id="14" login="julia" senha="jul123"/>
+  
+  <professor id="5" nome="Jefin" email="jeferson@" login_id="31"/>
+  <professor id="6" nome="Jukinha" email="juca@" login_id="32"/>
+  <professor id="7" nome="Jaozin" email="joao@" login_id="33"/>
+  <professor id="8" nome="Marquin" email="marquin@" login_id="34"/>
+  
+  <aula_pratica id="7" data_aula="2018-12-12 08:00:00" tema="Baliza" veiculo="Fiat Mobi" professor_id="4" aluno_matricula="5"/>
+  <aula_pratica id="8" data_aula="2018-12-13 10:00:00" tema="Aula inicial" veiculo="Celta" professor_id="6" aluno_matricula="6"/>
+  <aula_pratica id="9" data_aula="2018-12-14 13:00:00" tema="Regras de circulação" veiculo="Celta" professor_id="6" aluno_matricula="5"/>
+  
+  <aula_teorica id="19" data_aula="2018-12-14 14:00:00" tema="Primeiros Socorros" professor_id="7"/>
+  <aula_teorica id="20" data_aula="2018-12-14 10:00:00" tema="Mecânica" professor_id="8"/>
+  <aula_teorica id="21" data_aula="2018-12-14 16:00:00" tema="Placas" professor_id="8"/>
+  
+  <pessoa id="3" nome="Roberto" data_nascimento="1988-08-10" logradouro="rua Altivo Halfeld" numero="123" bairro="Vila Ideal" cidade="Juiz de Fora" estado="MG" tipo_pessoa="atendente" login_id="35"/>
+  <pessoa id="4" nome="Amanda" data_nascimento="1979-12-25" logradouro="rua A" numero="333" bairro="Retiro" cidade="Juiz de Fora" estado="MG" tipo_pessoa="administrador" login_id="36"/>
+  <pessoa id="5" nome="Júlia" data_nascimento="1969-03-17" logradouro="rua B" numero="156" bairro="Floresta" cidade="Juiz de Fora" estado="MG" tipo_pessoa="atendente" login_id="37"/>
+  
+  <pagamento id="9" situacao="PAGO" avista="1" valor="1500" num_parcelas="0" valor_parcelas="" aluno_matricula="1" data_pagamento="2018-12-03" qtd_aula_pratica="20" qtd_aula_teorica="20"/>
+  <pagamento id="10" situacao="PAGO" avista="0" valor="1500" num_parcelas="3" valor_parcelas="500" aluno_matricula="2" data_pagamento="2018-12-03" qtd_aula_pratica="15" qtd_aula_teorica="30"/>
+  <pagamento id="11" situacao="PAGO" avista="0" valor="1500" num_parcelas="2" valor_parcelas="750" aluno_matricula="3" data_pagamento="2018-12-03" qtd_aula_pratica="20" qtd_aula_teorica="40"/>
+  
+</dataset>
