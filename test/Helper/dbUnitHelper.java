@@ -33,7 +33,7 @@ public class dbUnitHelper {
     private String xmlFolder;
 
     public dbUnitHelper() {
-        this.xmlFolder = "test/DbUnitXml/";
+        this.xmlFolder = "test/dbUnitXML/";
 
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
